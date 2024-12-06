@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <!-- Images and captions -->
+            <div class="slide" data-caption="Image 1 Description">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.BzSKnTdvWNuPWZJPSEn-OQHaLH&pid=Api&P=0&h=180" alt="Image 1">
+            </div>
+            <div class="slide" data-caption="Image 2 Description">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.egyGU9VFOmuwZfWh7XJA3QHaL0&pid=Api&P=0&h=180" alt="Image 2">
+            </div>
+            <div class="slide" data-caption="Image 3 Description">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.eOz0vj8bZCznmgY6syUGUgHaLX&pid=Api&P=0&h=180" alt="Image 3">
+            </div>
+        </div>
+        <!-- Navigation controls -->
+        <button class="nav prev">&#10094;</button>
+        <button class="nav next">&#10095;</button>
+        <!-- Thumbnails -->
+        <div class="thumbnails">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.BzSKnTdvWNuPWZJPSEn-OQHaLH&pid=Api&P=0&h=180" alt="Thumbnail 1" data-index="0">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.egyGU9VFOmuwZfWh7XJA3QHaL0&pid=Api&P=0&h=180" alt="Thumbnail 2" data-index="1">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.eOz0vj8bZCznmgY6syUGUgHaLX&pid=Api&P=0&h=180" alt="Thumbnail 3" data-index="2">
+        </div>
+        <!-- Caption -->
+        <div class="caption"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
